@@ -88,11 +88,11 @@ body {
 
 .badge-cover {
   position: fixed;
-  bottom: 6px;
-  right: 6px;
-  width: 270px;
-  height: 110px;
-  border-radius: 48px;
+  bottom: 20px;
+  right: 20px;
+  width: 180px;
+  height: 60px;
+  border-radius: 28px;
   background: rgba(255, 255, 255, 0.98);
   box-shadow: none;
   z-index: 9;
@@ -111,12 +111,20 @@ body {
   }
 
   .badge-cover {
-    bottom: 6px;
-    right: 16px;
+    bottom: 20px;
+    right: 20px;
     width: 130px;
     height: 46px;
   }
 }
+
+
+
+
+
+
+
+
 
 
 
