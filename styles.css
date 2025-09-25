@@ -14,7 +14,7 @@ html, body {
 
 body {
   position: relative;
-  background: rgba(223, 227, 233, 0.96);
+  background: rgba(255, 255, 255, 0.98);
   color: #11131d;
   overflow: hidden;
 }
@@ -22,7 +22,7 @@ body {
 .spline-stage {
   position: fixed;
   inset: 0;
-  background: rgba(223, 227, 233, 0.96);
+  background: rgba(255, 255, 255, 0.98);
   z-index: 0;
 }
 
@@ -93,7 +93,7 @@ body {
   width: 270px;
   height: 110px;
   border-radius: 48px;
-  background: rgba(223, 227, 233, 0.96);
+  background: rgba(255, 255, 255, 0.98);
   box-shadow: none;
   z-index: 9;
 }
@@ -117,6 +117,11 @@ body {
     height: 46px;
   }
 }
+
+
+
+
+
 
 
 
