@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAX • Spatial AI Companion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="brand">
+        <span class="brand-icon">◎</span>
+        <span class="brand-label">RAX Labs</span>
+      </div>
+      <nav class="site-nav">
+        <a href="#vision">Vision</a>
+        <a href="#features">Features</a>
+        <a href="#specs">Specs</a>
+        <a href="#contact" class="cta-link">Request Access</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="vision">
+        <div class="hero-copy">
+          <p class="eyebrow">Spatial intelligence for real teams</p>
+          <h1>Meet RAX, your adaptive spatial AI companion.</h1>
+          <p class="lead">Bring lifelike assistance into hybrid workflows with a presence that responds to context, heartbeats, and voice. RAX keeps teams focused while moving information into the room.</p>
+          <div class="cta-group">
+            <a class="btn primary" href="#contact">Launch Preview</a>
+            <a class="btn ghost" href="#features">Explore Platform →</a>
+          </div>
+          <dl class="hero-metrics">
+            <div>
+              <dt>Latency</dt>
+              <dd>&lt;12ms edge response</dd>
+            </div>
+            <div>
+              <dt>Integrations</dt>
+              <dd>Slack, Linear, Notion</dd>
+            </div>
+            <div>
+              <dt>Runtime</dt>
+              <dd>18hrs untethered</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="hero-visual">
+          <div class="glass-frame">
+            <iframe
+              class="spline-frame"
+              src="https://my.spline.design/placeholder"
+              title="RAX spatial companion"
+              allow="autoplay"
+              loading="lazy"
+              frameborder="0"></iframe>
+          </div>
+          <div class="status-badge">
+            <span class="dot"></span>
+            Tracking active
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-grid" id="features">
+        <article>
+          <h2>Context blended</h2>
+          <p>RAX orchestrates data from spatial anchors, calendar intent, and live transcription to keep moments searchable.</p>
+        </article>
+        <article>
+          <h2>Ambient cues</h2>
+          <p>Subtle light behavior mirrors sentiment analysis, giving the room intuitive feedback without alerts.</p>
+        </article>
+        <article>
+          <h2>Secure autonomy</h2>
+          <p>Edge-encrypted processing ensures sensitive information never leaves the device perimeter.</p>
+        </article>
+      </section>
+
+      <section class="specs" id="specs">
+        <div class="spec-card">
+          <h3>Interfaces</h3>
+          <ul>
+            <li>Voice mesh with natural turn taking</li>
+            <li>Holographic overlays for live dashboards</li>
+            <li>Gesture library with proximity sensing</li>
+          </ul>
+        </div>
+        <div class="spec-card">
+          <h3>Core stack</h3>
+          <ul>
+            <li>RAX OS built on WebGPU</li>
+            <li>Realtime vector embeddings</li>
+            <li>Open telemetry bridge</li>
+          </ul>
+        </div>
+        <div class="spec-card">
+          <h3>Deployment</h3>
+          <ul>
+            <li>Self-calibrating spatial anchor mesh</li>
+            <li>Automatic OTA updates</li>
+            <li>Zero-touch provisioning</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div>
+          <h2>Ready to pilot?</h2>
+          <p>Join the early access cohort to co-design workflows with our team of spatial engineers and behavior designers.</p>
+        </div>
+        <form class="contact-form">
+          <label>
+            <span>Work email</span>
+            <input type="email" placeholder="you@studio.dev" required>
+          </label>
+          <label>
+            <span>Company</span>
+            <input type="text" placeholder="Studio name" required>
+          </label>
+          <label>
+            <span>Use case</span>
+            <textarea placeholder="Tell us how you plan to use RAX"></textarea>
+          </label>
+          <button type="submit" class="btn primary">Request access</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> RAX Labs. Spatial intelligence for teams on the edge.</p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
