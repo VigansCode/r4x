@@ -86,6 +86,18 @@ body {
   border: 0;
 }
 
+.badge-cover {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 160px;
+  height: 52px;
+  border-radius: 26px;
+  background: var(--bg);
+  box-shadow: 0 24px 60px rgba(17, 19, 29, 0.18);
+  z-index: 9;
+}
+
 @media (max-width: 620px) {
   .social-bar {
     top: 16px;
@@ -96,5 +108,12 @@ body {
   .social {
     width: 44px;
     height: 44px;
+  }
+
+  .badge-cover {
+    bottom: 16px;
+    right: 16px;
+    width: 130px;
+    height: 46px;
   }
 }
